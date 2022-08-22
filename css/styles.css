@@ -21,7 +21,7 @@ body {
 
 
 .schedule-body {
-    width: 93px;
+    width: 121px;
     height: 38px;
     flex-direction: row;
     text-align: center;
@@ -30,8 +30,8 @@ body {
 }
 
 .schedule-body:hover {
-    width: 121px;
-    height: 38px;
+    width: 150px;
+    height: 50px;
     cursor: pointer;
     background-color: #2196F3;
     border: none;
@@ -46,4 +46,32 @@ body {
 
 ul {
     list-style: none;
+    
+} 
+
+.nav-element {
+    display: inline;
 }
+
+
+
+.portfolio-button {
+    display: inline;
+    padding: 20px;
+    border: 10px;
+      
+}
+
+
+.portfolio-buttons {
+    margin-top: 174px;
+    margin-bottom: 50px;
+    margin-left: 510px;
+    margin-right: 158px;
+
+}
+
+.img-list-1 {
+    display: inline;
+}
+
