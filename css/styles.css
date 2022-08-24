@@ -13,6 +13,8 @@ ul {
 }
 
 
+/* index style */
+
 .nav-list-index {
     margin-top: 32px;
     margin-bottom: 32px;
@@ -36,10 +38,9 @@ ul {
     margin: auto;
     display: flex;
     flex-direction: row;
+    padding-top: 94px;
 
 }
-
-
 
 .container {
     width: 1600px;
@@ -137,7 +138,26 @@ ul {
     padding: 10px;
 }
 
+
+
+/* portfolio style */
+
+
+
+.portfolio-buttons {
+    margin: auto;
+    margin-bottom: 94px;
+
+}
+
+.portfolio-button {
+    display: inline;
+    padding: 10px;
+   
+}
+
 .schedule-body {
+    display: inline;
     width: 93px;
     height: 38px;
     flex-direction: row;
@@ -159,4 +179,18 @@ ul {
     display: inline-block;
     font-size: 16px; 
     transition: ease-out 0.3s;
+}
+
+
+
+.img-portfolio-list {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+
+
+.img-portfolio {
+    padding: 35px;
 }
