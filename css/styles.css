@@ -12,6 +12,21 @@ ul {
     list-style: none;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.container {
+    width: 1200px;
+    margin-bottom: 94px;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    background-color: #E5E5E5;
+}
 
 /* index style */
 
@@ -39,16 +54,6 @@ ul {
     justify-content: center;
     padding-top: 94px;
 
-}
-
-.container {
-    width: 1200px;
-    margin-bottom: 94px;
-    margin: auto;
-    display: flex;
-    gap: 15px;
-    flex-direction: column;
-    background-color: #E5E5E5;
 }
 
 .container-2 {
