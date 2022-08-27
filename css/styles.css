@@ -17,6 +17,7 @@ ul {
 
 .nav-list-index {
     display: flex;
+    gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 35px;     
@@ -24,17 +25,16 @@ ul {
 
 .link {
     display: flex;
+    gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 
 .text-index {
-    margin-top: 94px;
-    margin-bottom: 94px;
     font-size: 14px;
-    margin: auto;
     display: flex;
+ 
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 94px;
@@ -46,6 +46,7 @@ ul {
     margin-bottom: 94px;
     margin: auto;
     display: flex;
+    gap: 15px;
     flex-direction: column;
     background-color: #E5E5E5;
 }
@@ -94,6 +95,7 @@ ul {
 .we-do {
     margin: auto;
     display: flex;
+    gap: 15px;
     flex-direction: row;
     padding: 5px;
     margin-bottom: 94px;
@@ -107,12 +109,11 @@ ul {
 .employee-list {
     justify-content: center;
     display: flex;
+    gap: 15px;
     flex-wrap: wrap;
     margin-bottom: 94px;
     margin-top: 94px;
 }
-
-
 
 .footer {
     color: white;
