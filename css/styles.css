@@ -13,14 +13,12 @@ ul {
 }
 
 .section {
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 
 
 .container {
     width: 1200px;
-    margin-bottom: 94px;
     margin: auto;
     display: flex;
     gap: 15px;
@@ -34,8 +32,7 @@ ul {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 35px;     
+    justify-content: center;     
 }
 
 .link {
@@ -49,10 +46,8 @@ ul {
 .text-index {
     font-size: 14px;
     display: flex;
- 
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 94px;
 
 }
 
@@ -74,7 +69,6 @@ ul {
 }
 
 .heading-2 {
-    margin-top: 94px;
     margin-bottom: 50px;
     font-size: 38px;
     text-align: center;
@@ -83,12 +77,11 @@ ul {
 .btn-main {
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     cursor: pointer;
     height: 50px;
     width: 200px;
     background-color: #2196F3;
-    text-align: center;
 }
 
 .we-do-list {
@@ -100,10 +93,8 @@ ul {
 .we-do {
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
-    flex-direction: row;
-    padding: 5px;
-    margin-bottom: 94px;
 }
 
 .employee-container {
@@ -112,26 +103,19 @@ ul {
 }
 
 .employee-list {
+    margin-bottom: 60px;
     justify-content: center;
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
-    margin-bottom: 94px;
-    margin-top: 94px;
 }
 
 .footer {
+    margin-top: 50px;
     color: white;
     height: 250px;
     background-color: #2F303A;
 }
-
-.footer-main-element {
-    display: block;
-    margin-bottom: 10px;
-    margin-top: 60px;
-}
-
 
 
 
@@ -140,16 +124,12 @@ ul {
 
 
 .portfolio-buttons {
-    margin: auto;
-    margin-bottom: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
-.portfolio-button {
-    display: inline;
-    padding: 10px;
-   
-}
 
 .schedule-body {
     display: inline;
@@ -168,7 +148,6 @@ ul {
     background-color: #2196F3;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -176,12 +155,9 @@ ul {
     transition: ease-out 0.3s;
 }
 
-
-
 .img-portfolio-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 35px; 
-    margin-bottom: 94px;
+
 }
